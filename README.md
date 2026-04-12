@@ -33,7 +33,7 @@ Copyright 2026. Star^N Studio All rights reserved.
   *(웅크리기 상관없이 클릭 시 world 월드의 100, 64, -200 좌표로 텔레포트)*
 
 #### ⚡ 명령어 (Command) 설정
-* **명령어:** `/stools:click set [조건] cmd [명령어] [추가인자]`
+* **명령어:** `/stools:click set [조건] cmd [명령어]`
 * **설명:** 블록 클릭 시 지정한 명령어를 **OP 권한**으로 실행합니다. (슬래시 `/` 제외)
 * **예시:** `/stools:click set s cmd give %player% diamond 1`
   *(웅크린 상태로 클릭 시 해당 플레이어에게 다이아몬드 1개 지급)*
@@ -50,7 +50,7 @@ Copyright 2026. Star^N Studio All rights reserved.
 
 ### 3. 설정 목록 확인 (List)
 * **명령어:** `/stools:click list` (또는 `l`)
-* **설명:** `data.yml` 파일에 저장된 설정 목록을 확인합니다. (※ `sdir` 플러그인/명령어가 서버에 있어야 정상 작동합니다.)
+* **설명:** `data.yml` 파일에 저장된 설정 목록을 확인합니다. (※ `sdir` Skript/명령어가 서버에 있어야 정상 작동합니다.)
 
 ---
 
